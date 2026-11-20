@@ -1,4 +1,3 @@
-# fortran-2d-heat-conduction
 # 2D Heat Conduction in Fortran
 
 A small Fortran implementation of transient heat conduction in a rectangular
@@ -18,6 +17,7 @@ $$
 \frac{\partial^2 T}{\partial y^2}
 \right).
 $$
+
 Spatial derivatives use second-order central differences.
 Time integration uses the first-order forward Euler method.
 
