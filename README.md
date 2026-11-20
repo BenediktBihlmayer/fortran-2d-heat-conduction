@@ -6,16 +6,10 @@ plate using finite differences and explicit time integration.
 ## Mathematical model
 
 The solver approximates the two-dimensional heat equation with constant
-thermal diffusivity and no internal heat source:
+thermal diffusivity and no internal heat source.
 
 $$
-\frac{\partial T}{\partial t}
-=
-\alpha \left(
-\frac{\partial^2 T}{\partial x^2}
-+
-\frac{\partial^2 T}{\partial y^2}
-\right).
+\frac{\partial T}{\partial t} = \alpha \left( \frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2} \right)
 $$
 
 Spatial derivatives use second-order central differences.
