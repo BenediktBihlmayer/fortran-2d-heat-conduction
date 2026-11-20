@@ -18,9 +18,6 @@ $$
 \frac{\partial^2 T}{\partial y^2}
 \right).
 $$
-$$
-\frac{\partial T}{\partial t} = \alpha \left( \frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2} \right)
-$$
 Spatial derivatives use second-order central differences.
 Time integration uses the first-order forward Euler method.
 
